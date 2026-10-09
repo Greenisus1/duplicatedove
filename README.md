@@ -15,3 +15,5 @@ Regular UTF-8 file <=1 MiB. No argument prompts; 0 exits. JSON-only report: tota
 Exact decoded equality after CRLF/CR/LF terminators removed. No trimming/casefolding/Unicode normalization. Blank lines participate. Empty file zero lines; trailing newline doesn't create extra empty line. UTF-8 BOM included in first line. Unicode line separators aren't line splits. Invalid UTF-8 rejected. Duplicate-heavy file can make large report. Not dedupe/rewrite tool or file comparison. 16 tests cover definitions, redaction, group order, limits/UTF-8. Linux tested; Pi/non-Linux untested. Marker/version1.0.0 published.
 
 The current public-only Pi App Store cannot discover private repositories; authenticated store support is not verified.
+
+Fullscreen update: Store interactive launch uses terminal-sized board cells or wrapped full-terminal utility input/results with PgUp/PgDn scrolling. Original core rules and direct CLI commands remain unchanged. Ctrl+C cancels utility entry, result Enter returns; no new dependency downloads. Linux PTY resize/restoration checked; physical Pi untested.
